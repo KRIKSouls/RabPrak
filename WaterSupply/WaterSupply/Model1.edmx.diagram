@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="627495f202cb4ead9e9290ffebe582b8" Name="Diagram1">
+        <EntityTypeShape EntityType="WaterUtilityModel.Contract" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaterUtilityModel.Drinking_water_quality_indicator" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaterUtilityModel.Employee" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaterUtilityModel.Place_execution" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaterUtilityModel.Subscriber" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaterUtilityModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaterUtilityModel.Volume_of_drinking_water_consumption" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WaterUtilityModel.User" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="WaterUtilityModel.FK__Contract__Code_E__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="WaterUtilityModel.FK__Contract__Indica__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="WaterUtilityModel.FK__Contract__Subscr__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="WaterUtilityModel.FK__Contract__Volume__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="WaterUtilityModel.FK__Place_exe__Subsc__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

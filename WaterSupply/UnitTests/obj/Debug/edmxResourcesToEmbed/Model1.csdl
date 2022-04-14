@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WaterUtilityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Contract">
+    <Key>
+      <PropertyRef Name="Contract_number" />
+      <PropertyRef Name="Signature_date" />
+    </Key>
+    <Property Name="Contract_number" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Signature_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Payment" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Finish_Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Indicator_number" Type="Int32" Nullable="false" />
+    <Property Name="Volume_number" Type="Int32" Nullable="false" />
+    <Property Name="Code_Employee" Type="Int32" Nullable="false" />
+    <Property Name="Subscribers_TIN" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Contract__Code_E__2E1BDC42" FromRole="Contract" ToRole="Employee" />
+    <NavigationProperty Name="Drinking_water_quality_indicator" Relationship="Self.FK__Contract__Indica__30F848ED" FromRole="Contract" ToRole="Drinking_water_quality_indicator" />
+    <NavigationProperty Name="Subscriber" Relationship="Self.FK__Contract__Subscr__300424B4" FromRole="Contract" ToRole="Subscriber" />
+    <NavigationProperty Name="Volume_of_drinking_water_consumption" Relationship="Self.FK__Contract__Volume__31EC6D26" FromRole="Contract" ToRole="Volume_of_drinking_water_consumption" />
+  </EntityType>
+  <EntityType Name="Drinking_water_quality_indicator">
+    <Key>
+      <PropertyRef Name="Indicator_number" />
+    </Key>
+    <Property Name="Indicator_number" Type="Int32" Nullable="false" />
+    <Property Name="Indicators" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Units_measurement" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Regulations" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Indicator_harmfulness" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Hazard_class" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Contract" Relationship="Self.FK__Contract__Indica__30F848ED" FromRole="Drinking_water_quality_indicator" ToRole="Contract" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Code_Employee" />
+    </Key>
+    <Property Name="Code_Employee" Type="Int32" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NameEmployee" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Midllename" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Post" Type="String" MaxLength="450" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Number_Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Contract" Relationship="Self.FK__Contract__Code_E__2E1BDC42" FromRole="Employee" ToRole="Contract" />
+  </EntityType>
+  <EntityType Name="Place_execution">
+    <Key>
+      <PropertyRef Name="Place_execution_number" />
+    </Key>
+    <Property Name="Place_execution_number" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="400" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Subscribers_TIN" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Subscriber" Relationship="Self.FK__Place_exe__Subsc__2F10007B" FromRole="Place_execution" ToRole="Subscriber" />
+  </EntityType>
+  <EntityType Name="Subscriber">
+    <Key>
+      <PropertyRef Name="Subscribers_TIN" />
+    </Key>
+    <Property Name="Subscribers_TIN" Type="Int32" Nullable="false" />
+    <Property Name="Name_organization" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Checking_account" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Director" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="450" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Number" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correspondent_account" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Contract" Relationship="Self.FK__Contract__Subscr__300424B4" FromRole="Subscriber" ToRole="Contract" />
+    <NavigationProperty Name="Place_execution" Relationship="Self.FK__Place_exe__Subsc__2F10007B" FromRole="Subscriber" ToRole="Place_execution" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Volume_of_drinking_water_consumption">
+    <Key>
+      <PropertyRef Name="Volume_number" />
+    </Key>
+    <Property Name="Volume_number" Type="Int32" Nullable="false" />
+    <Property Name="Total_volume" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Total_number_months" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Contract" Relationship="Self.FK__Contract__Volume__31EC6D26" FromRole="Volume_of_drinking_water_consumption" ToRole="Contract" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="login" />
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Contract__Code_E__2E1BDC42">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Code_Employee" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Code_Employee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contract__Indica__30F848ED">
+    <End Role="Drinking_water_quality_indicator" Type="Self.Drinking_water_quality_indicator" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drinking_water_quality_indicator">
+        <PropertyRef Name="Indicator_number" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Indicator_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contract__Subscr__300424B4">
+    <End Role="Subscriber" Type="Self.Subscriber" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscriber">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contract__Volume__31EC6D26">
+    <End Role="Volume_of_drinking_water_consumption" Type="Self.Volume_of_drinking_water_consumption" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Volume_of_drinking_water_consumption">
+        <PropertyRef Name="Volume_number" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Volume_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Place_exe__Subsc__2F10007B">
+    <End Role="Subscriber" Type="Self.Subscriber" Multiplicity="1" />
+    <End Role="Place_execution" Type="Self.Place_execution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscriber">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Principal>
+      <Dependent Role="Place_execution">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WaterUtilityEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Contract" EntityType="Self.Contract" />
+    <EntitySet Name="Drinking_water_quality_indicator" EntityType="Self.Drinking_water_quality_indicator" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" />
+    <EntitySet Name="Place_execution" EntityType="Self.Place_execution" />
+    <EntitySet Name="Subscriber" EntityType="Self.Subscriber" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Volume_of_drinking_water_consumption" EntityType="Self.Volume_of_drinking_water_consumption" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <AssociationSet Name="FK__Contract__Code_E__2E1BDC42" Association="Self.FK__Contract__Code_E__2E1BDC42">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contract__Indica__30F848ED" Association="Self.FK__Contract__Indica__30F848ED">
+      <End Role="Drinking_water_quality_indicator" EntitySet="Drinking_water_quality_indicator" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contract__Subscr__300424B4" Association="Self.FK__Contract__Subscr__300424B4">
+      <End Role="Subscriber" EntitySet="Subscriber" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contract__Volume__31EC6D26" Association="Self.FK__Contract__Volume__31EC6D26">
+      <End Role="Volume_of_drinking_water_consumption" EntitySet="Volume_of_drinking_water_consumption" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Place_exe__Subsc__2F10007B" Association="Self.FK__Place_exe__Subsc__2F10007B">
+      <End Role="Subscriber" EntitySet="Subscriber" />
+      <End Role="Place_execution" EntitySet="Place_execution" />
+    </AssociationSet>
+    <FunctionImport Name="AddCont">
+      <Parameter Name="ConNum" Mode="In" Type="Int32" />
+      <Parameter Name="SignDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Pay" Mode="In" Type="Decimal" />
+      <Parameter Name="FinDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IndNum" Mode="In" Type="Int32" />
+      <Parameter Name="VolNum" Mode="In" Type="Int32" />
+      <Parameter Name="TINSup" Mode="In" Type="Int32" />
+      <Parameter Name="SubTIN" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddDrink">
+      <Parameter Name="IndNum" Mode="In" Type="Int32" />
+      <Parameter Name="Ind" Mode="In" Type="String" />
+      <Parameter Name="Units" Mode="In" Type="String" />
+      <Parameter Name="Reg" Mode="In" Type="String" />
+      <Parameter Name="Indicator" Mode="In" Type="String" />
+      <Parameter Name="Hazard" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddEmp">
+      <Parameter Name="CodeEmp" Mode="In" Type="Int32" />
+      <Parameter Name="Surname" Mode="In" Type="String" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="MidlName" Mode="In" Type="String" />
+      <Parameter Name="Post" Mode="In" Type="String" />
+      <Parameter Name="Num" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddPlace">
+      <Parameter Name="PlacNum" Mode="In" Type="Int32" />
+      <Parameter Name="Title" Mode="In" Type="String" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="SubTIN" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddSub">
+      <Parameter Name="SubTIN" Mode="In" Type="Int32" />
+      <Parameter Name="NameOrg" Mode="In" Type="String" />
+      <Parameter Name="ChecAcc" Mode="In" Type="String" />
+      <Parameter Name="Dir" Mode="In" Type="String" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="Num" Mode="In" Type="String" />
+      <Parameter Name="Corres" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddVolume">
+      <Parameter Name="VolNum" Mode="In" Type="Int32" />
+      <Parameter Name="TotalVol" Mode="In" Type="Int32" />
+      <Parameter Name="Price" Mode="In" Type="Decimal" />
+      <Parameter Name="TotalMon" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteCont">
+      <Parameter Name="ConNum" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteDrink">
+      <Parameter Name="IndNum" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteEmp">
+      <Parameter Name="CodeEmp" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DeletePlace">
+      <Parameter Name="PlacNum" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DeleteSub">
+      <Parameter Name="SubTIN" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Deletevalume">
+      <Parameter Name="VolNum" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(WaterUtilityModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(WaterUtilityModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="UpdateCont">
+      <Parameter Name="ConNum" Mode="In" Type="Int32" />
+      <Parameter Name="SignDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Pay" Mode="In" Type="Decimal" />
+      <Parameter Name="FinDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IndNum" Mode="In" Type="Int32" />
+      <Parameter Name="VolNum" Mode="In" Type="Int32" />
+      <Parameter Name="Numemp" Mode="In" Type="Int32" />
+      <Parameter Name="SubTIN" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateDrink">
+      <Parameter Name="IndNum" Mode="In" Type="Int32" />
+      <Parameter Name="Ind" Mode="In" Type="String" />
+      <Parameter Name="Units" Mode="In" Type="String" />
+      <Parameter Name="Reg" Mode="In" Type="String" />
+      <Parameter Name="Indicator" Mode="In" Type="String" />
+      <Parameter Name="Hazard" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateEmp">
+      <Parameter Name="CodeEmp" Mode="In" Type="Int32" />
+      <Parameter Name="Surname" Mode="In" Type="String" />
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="MidlName" Mode="In" Type="String" />
+      <Parameter Name="Post" Mode="In" Type="String" />
+      <Parameter Name="Num" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="UpdatePlace">
+      <Parameter Name="PlacNum" Mode="In" Type="Int32" />
+      <Parameter Name="Title" Mode="In" Type="String" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="SubTIN" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateSub">
+      <Parameter Name="SubTIN" Mode="In" Type="Int32" />
+      <Parameter Name="NameOrg" Mode="In" Type="String" />
+      <Parameter Name="ChecAcc" Mode="In" Type="String" />
+      <Parameter Name="Dir" Mode="In" Type="String" />
+      <Parameter Name="Address" Mode="In" Type="String" />
+      <Parameter Name="Num" Mode="In" Type="String" />
+      <Parameter Name="Corres" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateVolume">
+      <Parameter Name="VolNum" Mode="In" Type="Int32" />
+      <Parameter Name="TotalVol" Mode="In" Type="Int32" />
+      <Parameter Name="Price" Mode="In" Type="Decimal" />
+      <Parameter Name="TotalMon" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

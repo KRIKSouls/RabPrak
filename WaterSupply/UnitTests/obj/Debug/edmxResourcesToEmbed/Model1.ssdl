@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище WaterUtilityModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Contract">
+    <Key>
+      <PropertyRef Name="Contract_number" />
+      <PropertyRef Name="Signature_date" />
+    </Key>
+    <Property Name="Contract_number" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Signature_date" Type="datetime" Nullable="false" />
+    <Property Name="Payment" Type="money" Nullable="false" />
+    <Property Name="Finish_Date" Type="datetime" Nullable="false" />
+    <Property Name="Indicator_number" Type="int" Nullable="false" />
+    <Property Name="Volume_number" Type="int" Nullable="false" />
+    <Property Name="Code Employee" Type="int" Nullable="false" />
+    <Property Name="Subscribers_TIN" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Drinking_water_quality_indicator">
+    <Key>
+      <PropertyRef Name="Indicator_number" />
+    </Key>
+    <Property Name="Indicator_number" Type="int" Nullable="false" />
+    <Property Name="Indicators" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Units_measurement" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Regulations" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Indicator_harmfulness" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Hazard_class" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Code Employee" />
+    </Key>
+    <Property Name="Code Employee" Type="int" Nullable="false" />
+    <Property Name="Surname" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="NameEmployee" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Midllename" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Post" Type="varchar" MaxLength="450" Nullable="false" />
+    <Property Name="Number_Phone" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Place_execution">
+    <Key>
+      <PropertyRef Name="Place_execution_number" />
+    </Key>
+    <Property Name="Place_execution_number" Type="int" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="400" Nullable="false" />
+    <Property Name="Subscribers_TIN" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subscriber">
+    <Key>
+      <PropertyRef Name="Subscribers_TIN" />
+    </Key>
+    <Property Name="Subscribers_TIN" Type="int" Nullable="false" />
+    <Property Name="Name_organization" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Checking_account" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="Director" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="450" Nullable="false" />
+    <Property Name="Number" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Correspondent_account" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "WaterUtility.dbo.User" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="login" />
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Volume_of_drinking_water_consumption">
+    <Key>
+      <PropertyRef Name="Volume_number" />
+    </Key>
+    <Property Name="Volume_number" Type="int" Nullable="false" />
+    <Property Name="Total_volume" Type="int" Nullable="false" />
+    <Property Name="Price" Type="money" Nullable="false" />
+    <Property Name="Total_number_months" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Contract__Code E__2E1BDC42">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Code Employee" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Code Employee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contract__Indica__30F848ED">
+    <End Role="Drinking_water_quality_indicator" Type="Self.Drinking_water_quality_indicator" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drinking_water_quality_indicator">
+        <PropertyRef Name="Indicator_number" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Indicator_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contract__Subscr__300424B4">
+    <End Role="Subscriber" Type="Self.Subscriber" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscriber">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Contract__Volume__31EC6D26">
+    <End Role="Volume_of_drinking_water_consumption" Type="Self.Volume_of_drinking_water_consumption" Multiplicity="1" />
+    <End Role="Contract" Type="Self.Contract" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Volume_of_drinking_water_consumption">
+        <PropertyRef Name="Volume_number" />
+      </Principal>
+      <Dependent Role="Contract">
+        <PropertyRef Name="Volume_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Place_exe__Subsc__2F10007B">
+    <End Role="Subscriber" Type="Self.Subscriber" Multiplicity="1" />
+    <End Role="Place_execution" Type="Self.Place_execution" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subscriber">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Principal>
+      <Dependent Role="Place_execution">
+        <PropertyRef Name="Subscribers_TIN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="AddCont" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ConNum" Type="int" Mode="In" />
+    <Parameter Name="SignDate" Type="datetime" Mode="In" />
+    <Parameter Name="Pay" Type="money" Mode="In" />
+    <Parameter Name="FinDate" Type="datetime" Mode="In" />
+    <Parameter Name="IndNum" Type="int" Mode="In" />
+    <Parameter Name="VolNum" Type="int" Mode="In" />
+    <Parameter Name="TINSup" Type="int" Mode="In" />
+    <Parameter Name="SubTIN" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddDrink" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IndNum" Type="int" Mode="In" />
+    <Parameter Name="Ind" Type="varchar" Mode="In" />
+    <Parameter Name="Units" Type="varchar" Mode="In" />
+    <Parameter Name="Reg" Type="varchar" Mode="In" />
+    <Parameter Name="Indicator" Type="varchar" Mode="In" />
+    <Parameter Name="Hazard" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddEmp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CodeEmp" Type="int" Mode="In" />
+    <Parameter Name="Surname" Type="varchar" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="MidlName" Type="varchar" Mode="In" />
+    <Parameter Name="Post" Type="varchar" Mode="In" />
+    <Parameter Name="Num" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="AddPlace" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PlacNum" Type="int" Mode="In" />
+    <Parameter Name="Title" Type="varchar" Mode="In" />
+    <Parameter Name="Address" Type="varchar" Mode="In" />
+    <Parameter Name="SubTIN" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddSub" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SubTIN" Type="int" Mode="In" />
+    <Parameter Name="NameOrg" Type="varchar" Mode="In" />
+    <Parameter Name="ChecAcc" Type="varchar" Mode="In" />
+    <Parameter Name="Dir" Type="varchar" Mode="In" />
+    <Parameter Name="Address" Type="varchar" Mode="In" />
+    <Parameter Name="Num" Type="varchar" Mode="In" />
+    <Parameter Name="Corres" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddVolume" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="VolNum" Type="int" Mode="In" />
+    <Parameter Name="TotalVol" Type="int" Mode="In" />
+    <Parameter Name="Price" Type="money" Mode="In" />
+    <Parameter Name="TotalMon" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteCont" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ConNum" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteDrink" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IndNum" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteEmp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CodeEmp" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeletePlace" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PlacNum" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DeleteSub" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SubTIN" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Deletevalume" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="VolNum" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="UpdateCont" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ConNum" Type="int" Mode="In" />
+    <Parameter Name="SignDate" Type="datetime" Mode="In" />
+    <Parameter Name="Pay" Type="money" Mode="In" />
+    <Parameter Name="FinDate" Type="datetime" Mode="In" />
+    <Parameter Name="IndNum" Type="int" Mode="In" />
+    <Parameter Name="VolNum" Type="int" Mode="In" />
+    <Parameter Name="Numemp" Type="int" Mode="In" />
+    <Parameter Name="SubTIN" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UpdateDrink" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IndNum" Type="int" Mode="In" />
+    <Parameter Name="Ind" Type="varchar" Mode="In" />
+    <Parameter Name="Units" Type="varchar" Mode="In" />
+    <Parameter Name="Reg" Type="varchar" Mode="In" />
+    <Parameter Name="Indicator" Type="varchar" Mode="In" />
+    <Parameter Name="Hazard" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UpdateEmp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CodeEmp" Type="int" Mode="In" />
+    <Parameter Name="Surname" Type="varchar" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="MidlName" Type="varchar" Mode="In" />
+    <Parameter Name="Post" Type="varchar" Mode="In" />
+    <Parameter Name="Num" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="UpdatePlace" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PlacNum" Type="int" Mode="In" />
+    <Parameter Name="Title" Type="varchar" Mode="In" />
+    <Parameter Name="Address" Type="varchar" Mode="In" />
+    <Parameter Name="SubTIN" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UpdateSub" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SubTIN" Type="int" Mode="In" />
+    <Parameter Name="NameOrg" Type="varchar" Mode="In" />
+    <Parameter Name="ChecAcc" Type="varchar" Mode="In" />
+    <Parameter Name="Dir" Type="varchar" Mode="In" />
+    <Parameter Name="Address" Type="varchar" Mode="In" />
+    <Parameter Name="Num" Type="varchar" Mode="In" />
+    <Parameter Name="Corres" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UpdateVolume" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="VolNum" Type="int" Mode="In" />
+    <Parameter Name="TotalVol" Type="int" Mode="In" />
+    <Parameter Name="Price" Type="money" Mode="In" />
+    <Parameter Name="TotalMon" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="Хранилище WaterUtilityModelContainer">
+    <EntitySet Name="Contract" EntityType="Self.Contract" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Drinking_water_quality_indicator" EntityType="Self.Drinking_water_quality_indicator" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Place_execution" EntityType="Self.Place_execution" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subscriber" EntityType="Self.Subscriber" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Volume_of_drinking_water_consumption" EntityType="Self.Volume_of_drinking_water_consumption" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [User].[id] AS [id], 
+    [User].[login] AS [login], 
+    [User].[password] AS [password]
+    FROM [dbo].[User] AS [User]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Contract__Code E__2E1BDC42" Association="Self.FK__Contract__Code E__2E1BDC42">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contract__Indica__30F848ED" Association="Self.FK__Contract__Indica__30F848ED">
+      <End Role="Drinking_water_quality_indicator" EntitySet="Drinking_water_quality_indicator" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contract__Subscr__300424B4" Association="Self.FK__Contract__Subscr__300424B4">
+      <End Role="Subscriber" EntitySet="Subscriber" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Contract__Volume__31EC6D26" Association="Self.FK__Contract__Volume__31EC6D26">
+      <End Role="Volume_of_drinking_water_consumption" EntitySet="Volume_of_drinking_water_consumption" />
+      <End Role="Contract" EntitySet="Contract" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Place_exe__Subsc__2F10007B" Association="Self.FK__Place_exe__Subsc__2F10007B">
+      <End Role="Subscriber" EntitySet="Subscriber" />
+      <End Role="Place_execution" EntitySet="Place_execution" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

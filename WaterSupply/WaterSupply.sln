@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSupply", "WaterSupply\WaterSupply.csproj", "{4A777392-4A79-4A0C-8D23-721C6ADBB994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{82C53F4C-3C22-4D5B-8F12-B1C0365B1FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A777392-4A79-4A0C-8D23-721C6ADBB994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A777392-4A79-4A0C-8D23-721C6ADBB994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A777392-4A79-4A0C-8D23-721C6ADBB994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A777392-4A79-4A0C-8D23-721C6ADBB994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C53F4C-3C22-4D5B-8F12-B1C0365B1FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C53F4C-3C22-4D5B-8F12-B1C0365B1FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C53F4C-3C22-4D5B-8F12-B1C0365B1FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C53F4C-3C22-4D5B-8F12-B1C0365B1FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA0B361F-1910-46C9-974F-1C9F5A00F209}
+	EndGlobalSection
+EndGlobal

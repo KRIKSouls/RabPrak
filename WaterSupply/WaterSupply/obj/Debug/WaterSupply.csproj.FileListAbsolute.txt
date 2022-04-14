@@ -1,0 +1,216 @@
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csprojAssemblyReference.cache
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\MainWindow.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\MainWn.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\App.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply_MarkupCompile.cache
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply_MarkupCompile.lref
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\WaterSupply.exe.config
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\WaterSupply.exe
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\WaterSupply.pdb
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\App.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\MainWindow.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\MainWn.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.g.resources
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.Properties.Resources.resources
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.GenerateResource.cache
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.CoreCompileInputs.cache
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.exe
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.pdb
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\ContractPage.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\ContractPage.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\VolumePage.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\VolumePage.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\WaterQualityPage.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\WaterQualityPage.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesContract.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesContract.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesesSubscriberPage.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\SubscriberPage.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesesSubscriberPage.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\SubscriberPage.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChengesPlaceComp.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\PlaceCompletionPage.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChengesPlaceComp.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\PlaceCompletionPage.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\mainPage.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\mainPage.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\EntityFramework.dll
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\EntityFramework.xml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply_Content.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.CopyComplete
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Helper.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step1.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\Inf.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\PageProperties.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.dll
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.xml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Helper.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step1.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\Inf.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\PageProperties.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\End.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step2.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step3.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step4.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step5.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step6.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step8.g.cs
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\End.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step2.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step3.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step4.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step5.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step6.baml
+C:\Users\krikl\source\repos\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step8.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesContract.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesesSubscriberPage.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChengesPlaceComp.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\ContractPage.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\End.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Helper.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step1.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step2.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step3.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step4.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step5.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step6.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step8.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\Inf.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\mainPage.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\PageProperties.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\PlaceCompletionPage.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\SubscriberPage.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\VolumePage.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\WaterQualityPage.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\MainWindow.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\MainWn.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\App.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply_Content.g.cs
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply_MarkupCompile.cache
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply_MarkupCompile.lref
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.exe
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.pdb
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\WaterSupply.exe.config
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\WaterSupply.exe
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\WaterSupply.pdb
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\EntityFramework.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\EntityFramework.xml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.xml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\App.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesContract.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesesSubscriberPage.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChengesPlaceComp.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\ContractPage.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\End.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Helper.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step1.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step2.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step3.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step4.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step5.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step6.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step8.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\Inf.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\mainPage.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\PageProperties.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\PlaceCompletionPage.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\SubscriberPage.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\VolumePage.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\Lists\WaterQualityPage.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\MainWindow.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\MainWn.baml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.g.resources
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.Properties.Resources.resources
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.GenerateResource.cache
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.CoreCompileInputs.cache
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.CopyComplete
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csprojAssemblyReference.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\WaterSupply.exe.config
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\WaterSupply.exe
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\WaterSupply.pdb
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\EntityFramework.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\EntityFramework.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\WpfAnimatedGif.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.AssemblyReference.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.SuggestedBindingRedirects.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesContract.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesesSubscriberPage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChengesPlaceComp.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\ContractPage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\End.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Helper.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step1.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step2.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step3.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step4.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step5.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step6.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step8.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\Inf.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\mainPage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\PageProperties.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\PlaceCompletionPage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\SubscriberPage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\VolumePage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\WaterQualityPage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\MainWindow.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\MainWn.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\App.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply_Content.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply_MarkupCompile.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply_MarkupCompile.lref
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\App.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesContract.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChangesesSubscriberPage.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Changeses\ChengesPlaceComp.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\ContractPage.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\End.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Helper.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step1.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step2.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step3.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step4.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step5.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step6.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\HelperFolder\Step8.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\Inf.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\mainPage.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\Properties\PageProperties.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\PlaceCompletionPage.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\SubscriberPage.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\VolumePage.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\WaterQualityPage.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\MainWindow.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\MainWn.baml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.g.resources
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.Properties.Resources.resources
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.GenerateResource.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.CoreCompileInputs.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.csproj.CopyComplete
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.exe
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\WaterSupply.pdb
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\ChartPage.g.cs
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\ScottPlot.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\ScottPlot.WPF.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\System.Drawing.Common.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\System.ValueTuple.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\ScottPlot.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\bin\Debug\System.ValueTuple.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\WaterSupply\obj\Debug\Lists\ChartPage.baml

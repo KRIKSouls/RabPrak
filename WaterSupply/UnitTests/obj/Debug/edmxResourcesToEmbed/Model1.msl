@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище WaterUtilityModelContainer" CdmEntityContainer="WaterUtilityEntities1">
+    <EntitySetMapping Name="Contract">
+      <EntityTypeMapping TypeName="WaterUtilityModel.Contract">
+        <MappingFragment StoreEntitySet="Contract">
+          <ScalarProperty Name="Contract_number" ColumnName="Contract_number" />
+          <ScalarProperty Name="Signature_date" ColumnName="Signature_date" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="Finish_Date" ColumnName="Finish_Date" />
+          <ScalarProperty Name="Indicator_number" ColumnName="Indicator_number" />
+          <ScalarProperty Name="Volume_number" ColumnName="Volume_number" />
+          <ScalarProperty Name="Code_Employee" ColumnName="Code Employee" />
+          <ScalarProperty Name="Subscribers_TIN" ColumnName="Subscribers_TIN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Drinking_water_quality_indicator">
+      <EntityTypeMapping TypeName="WaterUtilityModel.Drinking_water_quality_indicator">
+        <MappingFragment StoreEntitySet="Drinking_water_quality_indicator">
+          <ScalarProperty Name="Indicator_number" ColumnName="Indicator_number" />
+          <ScalarProperty Name="Indicators" ColumnName="Indicators" />
+          <ScalarProperty Name="Units_measurement" ColumnName="Units_measurement" />
+          <ScalarProperty Name="Regulations" ColumnName="Regulations" />
+          <ScalarProperty Name="Indicator_harmfulness" ColumnName="Indicator_harmfulness" />
+          <ScalarProperty Name="Hazard_class" ColumnName="Hazard_class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="WaterUtilityModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="Code_Employee" ColumnName="Code Employee" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="NameEmployee" ColumnName="NameEmployee" />
+          <ScalarProperty Name="Midllename" ColumnName="Midllename" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Number_Phone" ColumnName="Number_Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Place_execution">
+      <EntityTypeMapping TypeName="WaterUtilityModel.Place_execution">
+        <MappingFragment StoreEntitySet="Place_execution">
+          <ScalarProperty Name="Place_execution_number" ColumnName="Place_execution_number" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Subscribers_TIN" ColumnName="Subscribers_TIN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subscriber">
+      <EntityTypeMapping TypeName="WaterUtilityModel.Subscriber">
+        <MappingFragment StoreEntitySet="Subscriber">
+          <ScalarProperty Name="Subscribers_TIN" ColumnName="Subscribers_TIN" />
+          <ScalarProperty Name="Name_organization" ColumnName="Name_organization" />
+          <ScalarProperty Name="Checking_account" ColumnName="Checking_account" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Correspondent_account" ColumnName="Correspondent_account" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="WaterUtilityModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Volume_of_drinking_water_consumption">
+      <EntityTypeMapping TypeName="WaterUtilityModel.Volume_of_drinking_water_consumption">
+        <MappingFragment StoreEntitySet="Volume_of_drinking_water_consumption">
+          <ScalarProperty Name="Volume_number" ColumnName="Volume_number" />
+          <ScalarProperty Name="Total_volume" ColumnName="Total_volume" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Total_number_months" ColumnName="Total_number_months" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="WaterUtilityModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AddCont" FunctionName="Хранилище WaterUtilityModel.AddCont" />
+    <FunctionImportMapping FunctionImportName="AddDrink" FunctionName="Хранилище WaterUtilityModel.AddDrink" />
+    <FunctionImportMapping FunctionImportName="AddEmp" FunctionName="Хранилище WaterUtilityModel.AddEmp" />
+    <FunctionImportMapping FunctionImportName="AddPlace" FunctionName="Хранилище WaterUtilityModel.AddPlace" />
+    <FunctionImportMapping FunctionImportName="AddSub" FunctionName="Хранилище WaterUtilityModel.AddSub" />
+    <FunctionImportMapping FunctionImportName="AddVolume" FunctionName="Хранилище WaterUtilityModel.AddVolume" />
+    <FunctionImportMapping FunctionImportName="DeleteCont" FunctionName="Хранилище WaterUtilityModel.DeleteCont" />
+    <FunctionImportMapping FunctionImportName="DeleteDrink" FunctionName="Хранилище WaterUtilityModel.DeleteDrink" />
+    <FunctionImportMapping FunctionImportName="DeleteEmp" FunctionName="Хранилище WaterUtilityModel.DeleteEmp" />
+    <FunctionImportMapping FunctionImportName="DeletePlace" FunctionName="Хранилище WaterUtilityModel.DeletePlace" />
+    <FunctionImportMapping FunctionImportName="DeleteSub" FunctionName="Хранилище WaterUtilityModel.DeleteSub" />
+    <FunctionImportMapping FunctionImportName="Deletevalume" FunctionName="Хранилище WaterUtilityModel.Deletevalume" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Хранилище WaterUtilityModel.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Хранилище WaterUtilityModel.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Хранилище WaterUtilityModel.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Хранилище WaterUtilityModel.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WaterUtilityModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Хранилище WaterUtilityModel.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WaterUtilityModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище WaterUtilityModel.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Хранилище WaterUtilityModel.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="UpdateCont" FunctionName="Хранилище WaterUtilityModel.UpdateCont" />
+    <FunctionImportMapping FunctionImportName="UpdateDrink" FunctionName="Хранилище WaterUtilityModel.UpdateDrink" />
+    <FunctionImportMapping FunctionImportName="UpdateEmp" FunctionName="Хранилище WaterUtilityModel.UpdateEmp" />
+    <FunctionImportMapping FunctionImportName="UpdatePlace" FunctionName="Хранилище WaterUtilityModel.UpdatePlace" />
+    <FunctionImportMapping FunctionImportName="UpdateSub" FunctionName="Хранилище WaterUtilityModel.UpdateSub" />
+    <FunctionImportMapping FunctionImportName="UpdateVolume" FunctionName="Хранилище WaterUtilityModel.UpdateVolume" />
+  </EntityContainerMapping>
+</Mapping>

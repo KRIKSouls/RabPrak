@@ -1,0 +1,34 @@
+﻿<Page x:Class="WaterSupply.Lists.PageProperties"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WaterSupply.Lists"
+      mc:Ignorable="d" 
+      d:DesignHeight="599" d:DesignWidth="1086"
+      Title="О программе">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.6*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="15,69,15,-39.4">
+            <TextBlock FontFamily="Cambria Math" TextWrapping="Wrap" x:Name="tbNameProd" Margin="10" FontSize="22" TextAlignment="Center"/>
+            <TextBlock FontFamily="Cambria Math" TextWrapping="Wrap" x:Name="tbVersProd" Margin="10" FontSize="22" TextAlignment="Center"/>
+            <TextBlock FontFamily="Cambria Math" TextWrapping="Wrap" x:Name="tbCopyProd" Margin="10" FontSize="22" TextAlignment="Center"/>
+            <TextBlock FontFamily="Cambria Math" TextWrapping="Wrap" x:Name="tbCompProd" Margin="10" FontSize="22" TextAlignment="Center"/>
+            <TextBox FontFamily="Cambria Math" TextWrapping="Wrap" x:Name="txtbDescProd" Margin="10" FontSize="22" TextAlignment="Center"/>
+        </StackPanel>
+        <Image Source="/Image/Vodak.png" Margin="3,-10,-54,15" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.033"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Page>

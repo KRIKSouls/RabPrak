@@ -1,0 +1,34 @@
+﻿<Page x:Class="WaterSupply.Lists.Changeses.ChangesContract"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WaterSupply.Lists.Changeses"
+      mc:Ignorable="d" 
+      d:DesignHeight="599" d:DesignWidth="1086"
+      Title="Дейсвтие с договором" Loaded="Page_Loaded">
+    <Grid Background="White">
+        <TextBlock FontFamily="Cambria Math" Margin="207,111,572,458" Grid.Row="0" Height="30" TextAlignment="Center" Text="Введите наименование абонента " FontSize="20" />
+        <ComboBox x:Name="NameOrg" Margin="587,111,283,472" FontFamily="Cambria Math" DisplayMemberPath="Name_organization" SelectedItem="{Binding Subscriber}"/>
+        <TextBlock FontFamily="Cambria Math" Margin="207,164,627,405" Grid.Row="0" Height="30" TextAlignment="Center" Text="Введите номер показателя " FontSize="20"/>
+        <ComboBox x:Name="NumInd" Margin="587,164,283,416" FontFamily="Cambria Math"  DisplayMemberPath="Indicator_number" SelectedItem="{Binding Drinking_water_quality_indicator}"/>
+        <TextBlock FontFamily="Cambria Math" Margin="207,214,664,355" Grid.Row="0" Height="30" TextAlignment="Center" Text="Введите номер объема " FontSize="20"/>
+        <ComboBox x:Name="NumVol" Margin="587,214,283,369" FontFamily="Cambria Math" DisplayMemberPath="Volume_number" SelectedItem="{Binding Volume_of_drinking_water_consumption}"/>
+        <TextBlock FontFamily="Cambria Math" Margin="207,265,646,304" Grid.Row="0" Height="30" TextAlignment="Center" Text="Введите ФИО сотрудника " FontSize="20"/>
+        <ComboBox x:Name="CbName" Margin="665,265,265.4,316.2" FontFamily="Cambria Math" DisplayMemberPath="Surname" SelectedItem="{Binding Employee}"/>
+        <ComboBox x:Name="CbLast" Margin="475,265,455.4,316.2" FontFamily="Cambria Math" DisplayMemberPath="NameEmployee" SelectedItem="{Binding Employee}"/>
+        <ComboBox x:Name="CbOtch" Margin="840,265,84.4,316.2" FontFamily="Cambria Math" DisplayMemberPath="Midllename" SelectedItem="{Binding Employee}"/>
+        <TextBlock FontFamily="Cambria Math" Margin="207,309,724,260" Grid.Row="0" Height="30" TextAlignment="Center" Text="Введите оплату " FontSize="20"/>
+        <TextBox Text ="{Binding Payment}" x:Name="Pay" Margin="587,309,283,273" FontFamily="Cambria Math" PreviewTextInput="Pay_PreviewTextInput"/>
+        <TextBlock FontFamily="Cambria Math" Margin="207,356,683,213" Grid.Row="0" Height="30" TextAlignment="Center" Text="Введите дату начала " FontSize="20"/>
+        <DatePicker SelectedDate ="{Binding Signature_date}"  x:Name="DateStart" Margin="587,356,283,213" FontFamily="Cambria Math"/>
+        <TextBlock FontFamily="Cambria Math" Margin="207,402,646,167" Grid.Row="0" Height="30" TextAlignment="Center" Text="Введите дату окончания " FontSize="20"/>
+        <DatePicker SelectedDate ="{Binding Finish_Date}" x:Name="DateEnd" Margin="587,402,283,167" FontFamily="Cambria Math"/>
+        <Border Background="#27659c" RenderTransformOrigin="0,1" CornerRadius="20" Margin="349,497,627,54">
+            <Button x:Name="Ok" Click="Ok_Click" Content="Выполнить" FontSize="15" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFFBE5E5" FontFamily="Cambria Math" Margin="10,0"/>
+        </Border>
+        <Border Background="#27659c" RenderTransformOrigin="0,1" CornerRadius="20" Margin="564,497,410,54">
+            <Button x:Name="NOk" Click="NOk_Click" Content="Отмена" FontSize="15" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFFBE5E5" FontFamily="Cambria Math" Margin="10,0"/>
+        </Border>
+    </Grid>
+</Page>

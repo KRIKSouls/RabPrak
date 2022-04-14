@@ -1,0 +1,86 @@
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\UnitTests.dll.config
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\WaterSupply.exe
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\WaterSupply.pdb
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\WaterSupply.exe.config
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\obj\Debug\UnitTests.csprojAssemblyReference.cache
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\krikl\source\repos\WaterSupply\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\UnitTests.dll.config
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\WaterSupply.exe
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\WaterSupply.pdb
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\WaterSupply.exe.config
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\obj\Debug\UnitTests.csprojAssemblyReference.cache
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\krikl\OneDrive\Рабочий стол\Олег\с флешки\РПМ Рабочая\WaterSupply\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\UnitTests.dll.config
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\WaterSupply.exe
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\WaterSupply.pdb
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\WaterSupply.exe.config
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\obj\Debug\UnitTests.csproj.AssemblyReference.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\obj\Debug\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\obj\Debug\UnitTests.csproj.CopyComplete
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ScottPlot.WPF.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ScottPlot.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\System.ValueTuple.dll
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\ScottPlot.xml
+C:\Users\krikl\Desktop\рабочая практика 4 курс\Диск\WaterSupply\UnitTests\bin\Debug\System.ValueTuple.xml
